@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+  </head>
+  <body>
+ 
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">
+            Search
+          </div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">
+            Search with your voice
+          </div>
+        </button>
+      </div>
+
+      <nav class="sidebar">
+        <div class="sidebar-link">
+          <img src="icons/home.svg">
+          <div>
+            Home
+          </div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/explore.svg">
+          <div>
+            Explore
+          </div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/subscriptions.svg">
+          <div>
+            Subscriptions
+          </div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/originals.svg">
+          <div>
+            Originals
+          </div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/youtube-music.svg">
+          <div>
+            Youtube Music
+          </div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/library.svg">
+          <div>
+            Library
+          </div>
+        </div>
+      </nav>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">
+            Create
+          </div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">
+            YouTube Apps
+          </div>
+        </div>
+        <div class="notification-icon-container">
+          <img class="notification-icon" src="icons/notifications.svg">
+          <div class="tooltip">
+            Notification
+          </div>
+          <div class="notifications-count">
+            3
+          </div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+      </div>
+    </div>
+
+      <div class="video-grid">
+
+        
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">       
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            </a>
+            <div class="video-time">
+              14:20
+            </div> 
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+
+              <div class="info-pop-up-container">
+                <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+                <div class="tooltip">
+                  <div class="channel-picture-pop-up">
+                    <img class="profile-picture-pop-up" src="channel-pictures/channel-1.jpeg">
+                  </div>
+                  <div class="pop-up">
+                    <p class="video-author-pop-up">
+                      Marques Brownlee
+                    </p>
+                    <p class="subscribers-pop-up">
+                      15M subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk" target="_blank">
+              <img class="thumbnail 2" src="thumbnails/thumbnail-2.webp">
+            </a>
+            <div>
+              <p class="video-time">
+                8:22
+              </p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="info-pop-up-container">
+                <img class="profile-picture" src="channel-pictures/channel-2.jpeg"> 
+                <div class="tooltip">
+                  <div class="channel-picture-pop-up">
+                    <img class="profile-picture-pop-up" src="channel-pictures/channel-2.jpeg">
+                  </div>
+                  <div class="pop-up">
+                    <p class="video-author-pop-up">
+                      Markiplier
+                    </p>
+                    <p class="subscribers-pop-up">
+                      33.4M subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Try Not To Laugh Challenge #9
+              </p>
+              <p class="video-author">
+                Markiplier
+              </p>
+              <p class="video-stats">
+                19M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+  
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">       
+            <a href="https://www.youtube.com/watch?v=sFEhbJWe_4g" target="_blank">
+              <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+            </a>
+            <div>
+              <p class="video-time">
+                10:33
+              </p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="info-pop-up-container">
+                <img class="profile-picture" src="channel-pictures/channel-picture-3.jpeg">
+                <div class="tooltip">
+                  <div class="channel-picture-pop-up">
+                    <img class="profile-picture-pop-up" src="channel-pictures/channel-picture-3.jpeg">
+                  </div>
+                  <div class="pop-up">
+                    <p class="video-author-pop-up">
+                      ArtPrimo
+                    </p>
+                    <p class="subscribers-pop-up">
+                      163K subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                ArtPrimo.com OTR 901 Soultip Paint Review
+              </p>
+              <p class="video-author">
+                ArtPrimo
+              </p>
+              <p class="video-stats">
+                32k views &#183; 6 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+  
+
+
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=wrweyL0YS8Y" target="_blank">
+              <img class="thumbnail 2" src="thumbnails/thumbnail-4.webp">
+            </a>
+            <p class="video-time">
+              7:21
+            </p>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="info-pop-up-container">
+                <img class="profile-picture" src="channel-pictures/channel-picture-4.jpeg"> 
+                <div class="tooltip">
+                  <div class="channel-picture-pop-up">
+                    <img class="profile-picture-pop-up" src="channel-pictures/channel-picture-4.jpeg">
+                  </div>
+                  <div class="pop-up">
+                    <p class="video-author-pop-up">
+                      Babish Culinary Universe
+                    </p>
+                    <p class="subscribers-pop-up">
+                      9.8M subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Foolproof Carbonara | Basics with Babish
+              </p>
+              <p class="video-author">
+                Babish Culinary Universe
+              </p>
+              <p class="video-stats">
+                507 views &#183; 2 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+  
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">       
+            <a href="https://www.youtube.com/watch?v=Wuu3Gd4Q6Uo" target="_blank">
+              <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+            </a>
+            <div>
+              <p class="video-time">
+                31:51
+              </p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="info-pop-up-container">
+                <img class="profile-picture" src="channel-pictures/channel-picture-5.jpeg">
+                <div class="tooltip">
+                  <div class="channel-picture-pop-up">
+                    <img class="profile-picture-pop-up" src="channel-pictures/channel-picture-5.jpeg">
+                  </div>
+                  <div class="pop-up">
+                    <p class="video-author-pop-up">
+                      ChrisFix
+                    </p>
+                    <p class="subscribers-pop-up">
+                      9.1M subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                How to Repair and Remove Dents from your Car 
+              </p>
+              <p class="video-author">
+                ChrisFix
+              </p>
+              <p class="video-stats">
+                1.2M views &#183; 4 weeks ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+  
+
+
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=sgNR-hA-Bho&t=741s" target="_blank">
+              <img class="thumbnail 2" src="thumbnails/thumbnail-6.webp">
+            </a>
+            <div>
+              <p class="video-time">
+                46:17
+              </p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="info-pop-up-container">
+                <img class="profile-picture" src="channel-pictures/channel-picture-6.jpeg"> 
+                <div class="tooltip">
+                  <div class="channel-picture-pop-up">
+                    <img class="profile-picture-pop-up" src="channel-pictures/channel-picture-6.jpeg">
+                  </div>
+                  <div class="pop-up">
+                    <p class="video-author-pop-up">
+                      PrimitiveSkate
+                    </p>
+                    <p class="subscribers-pop-up">
+                      192K subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Primitive Skate | ENCORE
+              </p>
+              <p class="video-author">
+                Primitive Skate
+              </p>
+              <p class="video-stats">
+                3.3M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=7g1R_LD0yyY" target="_blank">
+              <img class="thumbnail 2" src="thumbnails/thumbnail-7.wedp.webp">
+            </a>
+            <div>
+              <p class="video-time">
+                22:53
+              </p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="info-pop-up-container">
+                <img class="profile-picture" src="channel-pictures/channel-picture-7.jpeg"> 
+                <div class="tooltip">
+                  <div class="channel-picture-pop-up">
+                    <img class="profile-picture-pop-up" src="channel-pictures/channel-picture-7.jpeg">
+                  </div>
+                  <div class="pop-up">
+                    <p class="video-author-pop-up">
+                      RevZilla
+                    </p>
+                    <p class="subscribers-pop-up">
+                      1.16M subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Motorcycle Types for beginners - How to Choose at RevZilla.com
+              </p>
+              <p class="video-author">
+                RevZilla
+              </p>
+              <p class="video-stats">
+                7.9M views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=5ouuRw7zwKg" target="_blank">
+              <img class="thumbnail 2" src="thumbnails/thumbnail-8.webp">
+            </a>
+            <div>
+              <p class="video-time">
+                13:24
+              </p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="info-pop-up-container">
+                <img class="profile-picture" src="channel-pictures/channel-picture-8.jpeg"> 
+                <div class="tooltip">
+                  <div class="channel-picture-pop-up">
+                    <img class="profile-picture-pop-up" src="channel-pictures/channel-picture-8.jpeg">
+                  </div>
+                  <div class="pop-up">
+                    <p class="video-author-pop-up">
+                      Proko
+                    </p>
+                    <p class="subscribers-pop-up">
+                      2.67M subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Studying Art While Developing Your Style
+              </p>
+              <p class="video-author">
+                Proko
+              </p>
+              <p class="video-stats">
+                44K views &#183; 8 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=FKuLIrwIjt8" target="_blank">
+              <img class="thumbnail 2" src="thumbnails/thumbnail-9.webp">
+            </a>
+            <div>
+              <p class="video-time">
+                8:50
+              </p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="info-pop-up-container">
+                <img class="profile-picture" src="channel-pictures/channel-picture-9.jpeg"> 
+                <div class="tooltip">
+                  <div class="channel-picture-pop-up">
+                    <img class="profile-picture-pop-up" src="channel-pictures/channel-picture-9.jpeg">
+                  </div>
+                  <div class="pop-up">
+                    <p class="video-author-pop-up">
+                      MrBeast Gaming
+                    </p>
+                    <p class="subscribers-pop-up">
+                      28.6M subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Extreme Squid Game Challenge!
+              </p>
+              <p class="video-author">
+                MrBeast Gaming
+              </p>
+              <p class="video-stats">
+                1.7M views &#183; 7 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg" target="_blank">
+              <img class="thumbnail 2" src="thumbnails/thumbnail-10.webp">
+            </a>
+            <div>
+              <p class="video-time">
+                22:09
+              </p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="info-pop-up-container">
+                <img class="profile-picture" src="channel-pictures/channel-picture-10.jpeg"> 
+                <div class="tooltip">
+                  <div class="channel-picture-pop-up">
+                    <img class="profile-picture-pop-up" src="channel-pictures/channel-picture-10.jpeg">
+                  </div>
+                  <div class="pop-up">
+                    <p class="video-author-pop-up">
+                      Veritasium
+                    </p>
+                    <p class="subscribers-pop-up">
+                      12.7M subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+              <p class="video-author">
+                Veritasium
+              </p>
+              <p class="video-stats">
+                18M views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=lFm4EM1juls" target="_blank">
+              <img class="thumbnail 2" src="thumbnails/thumbnail-11.webp">
+            </a>
+            <div>
+              <p class="video-time">
+                46:17
+              </p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="info-pop-up-container">
+                <img class="profile-picture" src="channel-pictures/channel-picture-11.jpeg"> 
+                <div class="tooltip">
+                  <div class="channel-picture-pop-up">
+                    <img class="profile-picture-pop-up" src="channel-pictures/channel-picture-11.jpeg">
+                  </div>
+                  <div class="pop-up">
+                    <p class="video-author-pop-up">
+                      Tech Vision
+                    </p>
+                    <p class="subscribers-pop-up">
+                      766K subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Inside The World's Biggest Passenger Plane
+              </p>
+              <p class="video-author">
+                Tech Vision
+              </p>
+              <p class="video-stats">
+                3.7M views &#183; 10 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs" target="_blank">
+              <img class="thumbnail 2" src="thumbnails/thumbnail-12.webp">
+            </a>
+            <div>
+              <p class="video-time">
+                46:17
+              </p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="info-pop-up-container">
+                <img class="profile-picture" src="channel-pictures/channel-picture-12.jpeg"> 
+                <div class="tooltip">
+                  <div class="channel-picture-pop-up">
+                    <img class="profile-picture-pop-up" src="channel-pictures/channel-picture-12.jpeg">
+                  </div>
+                  <div class="pop-up">
+                    <p class="video-author-pop-up">
+                      TED-Ed
+                    </p>
+                    <p class="subscribers-pop-up">
+                      17.4M subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                What would happen if you didn't drink water? - Mia Nacamulli
+              </p>
+              <p class="video-author">
+                TED-Ed
+              </p>
+              <p class="video-stats">
+                12M views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        
+      </div>
+  </body>
+</html>
